@@ -79,7 +79,7 @@ mkdir docs
 以下のコマンドを実行して、ドキュメントを読み込み、ベクトルデータベースを作成します。
 
 ```bash
-python make_database.py
+uv run make_database.py
 ```
 実行が完了すると、`chroma_db` ディレクトリにデータベースが作成されます。
 ※ ドキュメントを追加・変更した場合は、再度このコマンドを実行してください。
@@ -89,7 +89,7 @@ python make_database.py
 以下のコマンドでWebインターフェースを起動します。
 
 ```bash
-python main.py
+uv run main.py
 ```
 
 起動後、ブラウザで表示されるURL（通常は `http://127.0.0.1:7860`）にアクセスしてください。
