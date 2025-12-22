@@ -1,0 +1,18 @@
+# LLM Configuration
+llm_model: "gpt-oss:latest"
+
+# Embedding Model Configuration
+embedding_model: "sbintuitions/sarashina-embedding-v2-1b"
+
+# Text Splitting Configuration
+chunk_size: 3000
+chunk_overlap: 200
+
+# Document Directory
+docs_dir: "docs"
+
+# Vector Database Configuration
+chroma_dir: "chroma_db"
+
+
+
