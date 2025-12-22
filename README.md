@@ -1,6 +1,6 @@
-# 社内ドキュメント検索RAG
+# RAG
 
-社内ドキュメント（PDF, Word, Excel, PowerPoint, Text）を読み込み、それらの内容に基づいて回答するRAG（Retrieval-Augmented Generation）システムです。
+各種ドキュメント（PDF, Word, Excel, PowerPoint, Text）を読み込み、それらの内容に基づいて回答するRAG（Retrieval-Augmented Generation）システムです。
 ローカルLLM（Ollama）とHuggingFaceのEmbeddingモデル、ChromaDBを使用しています。
 
 ## 特徴
