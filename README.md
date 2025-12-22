@@ -20,22 +20,16 @@
 ### 1. リポジトリのクローン
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/dai-ichiro/langchain_rag
+cd langchain_rag
 ```
 
 ### 2. 依存関係のインストール
 
-このプロジェクトではパッケージ管理に `uv` を使用していますが、`pip` でもインストール可能です。
+このプロジェクトではパッケージ管理に `uv` を使用しています。
 
-**uv を使用する場合:**
 ```bash
 uv sync
-```
-
-**pip を使用する場合:**
-```bash
-pip install .
 ```
 
 ### 3. Ollama モデルの準備
