@@ -87,8 +87,8 @@ def process_query_stream(query: str):
 
 if __name__ == "__main__":
     # Gradio インターフェースの構築
-    with gr.Blocks(title="社内ドキュメント検索RAG") as demo:
-        gr.Markdown("# 社内ドキュメント検索システム")
+    with gr.Blocks(title="RAG") as demo:
+        gr.Markdown("# ドキュメント検索システム")
         gr.Markdown("質問を入力すると、ベクトルデータベースから関連ドキュメントを検索して回答します。")
 
         with gr.Row():
@@ -122,3 +122,4 @@ if __name__ == "__main__":
 
     # Gradio アプリケーションを起動
     demo.launch()
+
