@@ -14,7 +14,7 @@
 - Python 3.13 以上
 - NVIDIA CUDA 12.6 以上
 - [Ollama](https://ollama.com/) (LLMの実行用)
-- [uv](https://github.com/astral-sh/uv) (推奨パッケージマネージャー) または pip
+- [uv](https://github.com/astral-sh/uv) (推奨パッケージマネージャー) 
 
 ## セットアップ
 
